@@ -29,4 +29,4 @@ function myUpperCase(string) {
   return myString;
 }
 
-  console.log(myUpperCase("hello"));
+myUpperCase("Hello World");
