@@ -11,7 +11,7 @@ function myStringLength(string) {
 function myCountChar(haystack, needle) {
   let count = 0;
 
-  for(i = 0; i < myStringLength(haystack); i++) {
+  for(let i = 0; i < myStringLength(haystack); i++) {
     if (haystack[i] === needle) {
       count++
     }
