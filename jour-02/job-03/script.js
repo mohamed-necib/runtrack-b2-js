@@ -18,8 +18,8 @@ function myTurnItalic() {
 
 function myClearText() {
   clearBtn.addEventListener('click', () => {
-    textDisplayer.innerHTML = "";
-    textInput.value = "";
+    textDisplayer.style.fontWeight = 'normal';
+    textDisplayer.style.fontStyle = 'normal';
   })
 }
 
